@@ -44,7 +44,7 @@ public class Coin : MonoBehaviour
     {
         if (other.gameObject.tag == _PLAYER)
         {
-            var coinValue = RemoteConfigService.Instance.appConfig.GetInt("COIN", this.coinValue);
+            var coinValue = RemoteConfigService.Instance.appConfig.GetInt("CoinValue", this.coinValue);
 
             // Raise Event
             scoreUpdateEvent(coinValue);
