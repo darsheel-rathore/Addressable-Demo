@@ -12,28 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 469c24fdb3bd6431b92cc1465bd9166b, type: 3}
   m_Name: RemoteConfigDataStoreAsset
   m_EditorClassIdentifier: 
-  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"1d6bb1ff-50ac-4b70-ac4c-4c784aff0c66\"\r\n   
-    },\r\n    \"rs\": {\r\n      \"key\": \"COIN\",\r\n      \"type\": \"int\",\r\n     
-    \"value\": 500\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"9259db1f-07f7-49ff-b3d3-1e55b03216ae\"\r\n    },\r\n    \"rs\": {\r\n     
-    \"key\": \"TITLE\",\r\n      \"type\": \"string\",\r\n      \"value\": \"Addressable\"\r\n   
-    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"ef0db4d5-01ec-4de6-8a98-ea57475c34dd\"\r\n   
-    },\r\n    \"rs\": {\r\n      \"key\": \"Ishan\",\r\n      \"type\": \"json\",\r\n     
-    \"schemaId\": null,\r\n      \"value\": {\r\n        \"Name\": \"Ishan\",\r\n       
-    \"Age\": 30\r\n      }\r\n    }\r\n  }\r\n]"
-  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"1d6bb1ff-50ac-4b70-ac4c-4c784aff0c66\"\r\n   
-    },\r\n    \"rs\": {\r\n      \"key\": \"COIN\",\r\n      \"type\": \"int\",\r\n     
-    \"value\": 500\r\n    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\":
-    \"9259db1f-07f7-49ff-b3d3-1e55b03216ae\"\r\n    },\r\n    \"rs\": {\r\n     
-    \"key\": \"TITLE\",\r\n      \"type\": \"string\",\r\n      \"value\": \"Addressable\"\r\n   
-    }\r\n  },\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"ef0db4d5-01ec-4de6-8a98-ea57475c34dd\"\r\n   
-    },\r\n    \"rs\": {\r\n      \"key\": \"Ishan\",\r\n      \"type\": \"json\",\r\n     
-    \"schemaId\": null,\r\n      \"value\": {\r\n        \"Name\": \"Ishan\",\r\n       
-    \"Age\": 30\r\n      }\r\n    }\r\n  }\r\n]"
-  _environments: "[\r\n  {\r\n    \"projectId\": \"e1e4fbe8-805b-49c0-adb8-7db03de44702\",\r\n   
-    \"name\": \"production\",\r\n    \"id\": \"f4211191-8eef-441a-acfc-4ebb2ac1d2be\",\r\n   
-    \"isDefault\": true,\r\n    \"createdAt\": \"2023-09-23T12:59:21Z\",\r\n    \"updatedAt\":
-    \"2023-09-23T12:59:21Z\"\r\n  },\r\n  {\r\n    \"projectId\": \"e1e4fbe8-805b-49c0-adb8-7db03de44702\",\r\n   
-    \"name\": \"staging\",\r\n    \"id\": \"93638373-9357-4614-a606-bb3d9a0dbed3\",\r\n   
-    \"isDefault\": false,\r\n    \"createdAt\": \"2023-09-23T14:34:13Z\",\r\n   
-    \"updatedAt\": \"2023-09-23T14:34:13Z\"\r\n  }\r\n]"
+  _rsKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"2a350126-d5c4-4d9f-9f95-efeace3698dd\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"CoinValue\",\r\n      \"type\": \"int\",\r\n     
+    \"value\": 200\r\n    }\r\n  }\r\n]"
+  _rsLastCachedKeyList: "[\r\n  {\r\n    \"metadata\": {\r\n      \"entityId\": \"2a350126-d5c4-4d9f-9f95-efeace3698dd\"\r\n   
+    },\r\n    \"rs\": {\r\n      \"key\": \"CoinValue\",\r\n      \"type\": \"int\",\r\n     
+    \"value\": 200\r\n    }\r\n  }\r\n]"
+  _environments: "[\r\n  {\r\n    \"projectId\": \"1766218a-3b59-499b-98cf-32ba40929009\",\r\n   
+    \"name\": \"production\",\r\n    \"id\": \"f9f26594-a9ab-482f-8e22-c03e149d3dc2\",\r\n   
+    \"isDefault\": true,\r\n    \"createdAt\": \"2023-09-24T11:57:44Z\",\r\n    \"updatedAt\":
+    \"2023-09-24T11:57:44Z\"\r\n  },\r\n  {\r\n    \"projectId\": \"1766218a-3b59-499b-98cf-32ba40929009\",\r\n   
+    \"name\": \"development\",\r\n    \"id\": \"c3e71525-b790-4a27-81b3-6ae2ba4e677c\",\r\n   
+    \"isDefault\": false,\r\n    \"createdAt\": \"2023-09-24T12:00:20Z\",\r\n   
+    \"updatedAt\": \"2023-09-24T12:00:20Z\"\r\n  }\r\n]"
