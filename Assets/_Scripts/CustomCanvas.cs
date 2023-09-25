@@ -112,6 +112,10 @@ public class CustomCanvas : MonoBehaviour
                 startGameBtn.gameObject.SetActive(true);
                 titleText.gameObject.SetActive(true);
                 quitBtn.gameObject.SetActive(true);
+                // Disable the score ui and reset the score
+                scoreText.gameObject.SetActive(false);
+                PersistantManager.instance.score = 0;
+                UpdateScoreText(value: 0);
 
                 isLoading = false;
                 Debug.Log(onSuccess);

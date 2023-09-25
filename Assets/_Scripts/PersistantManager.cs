@@ -30,6 +30,26 @@ public class PersistantManager : MonoBehaviour
         Addressables.InitializeAsync(this);
         
         // Load Audio
+        //if (gameObject.GetComponent<AudioSource>() == null)
+        //{
+        //    bgm_audioClip.LoadAssetAsync<AudioClip>().Completed += (obj) =>
+        //    {
+        //        if (obj.Status == AsyncOperationStatus.Succeeded)
+        //        {
+        //            var audioSource = gameObject.AddComponent<AudioSource>();
+        //            audioSource.clip = obj.Result;
+        //            audioSource.volume = 0.2f;
+        //            audioSource.loop = true;
+        //            audioSource.playOnAwake = false;
+        //            audioSource.Play();
+        //        }
+        //    };
+        //}
+    }
+
+    private void Start()
+    {
+        // Load Audio
         if (gameObject.GetComponent<AudioSource>() == null)
         {
             bgm_audioClip.LoadAssetAsync<AudioClip>().Completed += (obj) =>
@@ -45,6 +65,7 @@ public class PersistantManager : MonoBehaviour
                 }
             };
         }
+
     }
 
     public void CalculateCurrentScore(int value) => score += value;

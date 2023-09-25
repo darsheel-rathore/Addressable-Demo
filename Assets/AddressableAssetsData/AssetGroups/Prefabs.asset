@@ -17,11 +17,6 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 6e83a305b01ed874b8243b5b3eed6a82
   m_SerializeEntries:
-  - m_GUID: ef50ee6b0f7333745b2225a88e209f2b
-    m_Address: Assets/_Addressable Items/Prefab/Canvas.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 4ac74f5a262171d41b2054a724225e4b
     m_Address: Assets/_Addressable Items/Prefab/Gold Coin.prefab
     m_ReadOnly: 0
