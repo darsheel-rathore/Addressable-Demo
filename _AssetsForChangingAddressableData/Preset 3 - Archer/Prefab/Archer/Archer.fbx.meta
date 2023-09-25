@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e78e6aa6ab3f6124bb7f7eedc859da28
+guid: 0d2c667918dd36f4b9b0122e23cd3bb2
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: akai_diffuse
-    second: {fileID: 2800000, guid: 7dc95b29ca5838a4aae4db50b99d963c, type: 3}
+    second: {fileID: 2800000, guid: 59c707fd8e442384c99e087e74c6c37f, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

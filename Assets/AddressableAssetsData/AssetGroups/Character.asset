@@ -22,21 +22,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 766fd3ff04aab4745a764d33daac86fa
-    m_Address: Assets/_Addressable Items/Prefab/Character/M_Armature_Arms.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 43714b68324cc2c409d534d9874f2a2b
-    m_Address: Assets/_Addressable Items/Prefab/Character/M_Armature_Body.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8b25e99361ac31d4e9ae83c46aee69ea
-    m_Address: Assets/_Addressable Items/Prefab/Character/M_Armature_Legs.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: b66b6e45766b80a4e8785c9857d7b9b3, type: 2}
   m_SchemaSet:
