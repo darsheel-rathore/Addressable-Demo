@@ -1,2 +1,0 @@
-1. While building include the exo gray fbx model too.
-2. Check for any asset which are not part of this release in the addressable asset group.
